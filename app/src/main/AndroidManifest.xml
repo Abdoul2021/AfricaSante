@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bf.africasante">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AfricaSanté">
+        <activity
+            android:name=".patient.RdvProActivity"
+            android:exported="false" />
+        <activity
+            android:name=".professionnel.ProEditProfilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".professionnel.ProResetPassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".professionnel.ProProfilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".professionnel.ProConnexionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".patient.RdvActivity"
+            android:exported="false" />
+        <activity
+            android:name=".patient.EditProfilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".patient.ResetPassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".patient.ProfilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".patient.ConnexionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".patient.CreationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".professionnel.RdvPourPatientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
